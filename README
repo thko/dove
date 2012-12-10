@@ -1,0 +1,9 @@
+Really really basic graph theory JS/Canvas thing. Uses jQuery.
+
+Specify vertices and edges in the text field. Vertices will be arranged in the order they are written.
+
+Directed edges currently aren't supported, but that should be stupid easy to implement.
+
+Click and drag vertices. Someone please make this part more responsive, I'm not a Javascript expert!
+
+Bugs: Lots. Most notably, phantom vertices named "" get drawn while editing the edges field... why?

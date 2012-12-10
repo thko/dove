@@ -1,0 +1,9 @@
+#dove {
+	vertical-align: top;
+	border: 1px solid black;
+}
+
+#doveinput {
+	height: 500;
+	width: 12em;
+}

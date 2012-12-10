@@ -1,0 +1,19 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="dove.js"></script>
+<link rel=stylesheet href="dove.css"> <!-- even though it doesn't actually exist yet -->
+
+<canvas id=dove>No HTML5 canvas support</canvas>
+<textarea id=doveinput onkeypress="update(this.value);draw();">
+a
+b
+c
+d
+
+a b
+a c
+a d
+b c
+b d
+c d
+</textarea>
+<br><input type=checkbox id=drawnames checked=yes onchange="draw();">Draw names of vertices
